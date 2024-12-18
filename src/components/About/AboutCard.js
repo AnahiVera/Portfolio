@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { FaRegHeart } from "react-icons/fa"
 
 function AboutCard() {
   return (
@@ -8,33 +9,32 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi everyone, I am <span className="purple">Anahi Vera Rogel </span>
+            from <span className="purple"> Dalcahue, in Chiloe Island, Chile.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently on a journey to consolidate my knowledge, explore, and learn all about Software Development.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed the Full Stack Bootcamp at 4Geeks Academy and hold a Bachelor's Degree in English Teaching and Education.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <FaRegHeart /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <FaRegHeart /> Reading
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaRegHeart /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Believe you can and you're halfway there!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Theodore Roosevelt</footer>
         </blockquote>
       </Card.Body>
     </Card>
