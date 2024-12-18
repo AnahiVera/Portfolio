@@ -14,7 +14,7 @@
 <h3 align="center">Portfolio</h3>
 
   <p align="center">
-    My personal portfolio <!-- <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> --> which features some of my github projects as well as my resume and technical skills
+    My personal portfolio <a href="https://portfolio-lovat-nu-77.vercel.app/project" target="_blank">MyPortfolioVercel</a> which features some of my github projects as well as my resume and technical skills
   </p>
 </div>
 
