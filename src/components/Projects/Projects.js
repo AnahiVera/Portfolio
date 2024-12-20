@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Game from "../../Assets/Projects/tic-tac-toe.png";
 import emotion from "../../Assets/Projects/emotion.png";
-
 import Bgame from "../../Assets/Projects/battleship.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import Galaxy from "../../Assets/Projects/Galaxy.jpg"
