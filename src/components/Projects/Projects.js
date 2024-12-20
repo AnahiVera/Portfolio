@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Game from "../../Assets/Projects/tic-tac-toe.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+
+import Bgame from "../../Assets/Projects/battleship.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Galaxy from "../../Assets/Projects/Galaxy.jpg"
 
 function Projects() {
   return (
@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Galaxy}
               isBlog={false}
-              title="Edit project"
-              description="Description."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Star Wars Blog"
+              description="The Star Wars Blog project is a React-based application that fetches and displays data from the Star Wars API (SWAPI). It features a dynamic user interface where users can learn about their favorite Star Wars characters, planets, and starships. Each item has its dedicated details page, styled with Bootstrap and custom CSS to enhance the visual appeal. The blog's functionalities include seamless navigation, responsive design, and the ability to bookmark or favorite items for quick access."
+              ghLink="https://github.com/AnahiVera/Starwars-blog"
+              demoLink="https://starwars-blog-ruby.vercel.app/"
             />
           </Col>
 
@@ -43,16 +43,16 @@ function Projects() {
             />
           </Col>
 
-         {/*  <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Bgame}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Battleship Game"
+              description="The Battleship game is a React-based application where players compete against the CPU in a classic naval strategy game. Ship Placement involves random positioning on both the player's and CPU's boards at the start of each turn. Turns and Attacks are interactive, allowing the player to click on the CPU's board to attack, followed by the CPU's randomized counterattack. Victory and Game Over states are clearly marked with popup messages, celebrating the winner or signaling the end of the gamee"
+              ghLink="https://github.com/AnahiVera/BattleShipGame"
+              demoLink="https://battle-ship-game-omega.vercel.app/"              
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
