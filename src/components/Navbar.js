@@ -92,11 +92,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://vercel.com/anahi-veras-projects"
+                href="https://github.com/AnahiVera"
                 target="_blank"
                 rel="noreferrer"
               >
-                <TbBrandVercel style={{ marginBottom: "2px" }} /> Vercel
+                <TbBrandVercel style={{ marginBottom: "2px" }} /> Github
               </Nav.Link>
             </Nav.Item>
 
