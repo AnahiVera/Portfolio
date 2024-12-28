@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Game from "../../Assets/Projects/tic-tac-toe.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import retro from "../../Assets/Projects/reproductor.png";
 import Bgame from "../../Assets/Projects/battleship.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import Galaxy from "../../Assets/Projects/starwars.png"
@@ -53,18 +53,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={retro}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Music Player"
+              description="The Music Player project is a React application that delivers an intuitive and engaging audio experience. It features a list of songs fetched from an API, allowing users to play, pause, and navigate between tracks. Upon loading the page, the player starts playing the first song by default. Additional functionalities include a volume control slider, a shuffle mode for random playback, and a timeline slider to track progress and seek specific song parts. Styled with a neon gaming aesthetic, the music player blends functionality with a fun design for a modern and user-friendly interface."
+              ghLink="https://github.com/AnahiVera/music-player-react"
+              demoLink="https://music-player-react-pi.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
