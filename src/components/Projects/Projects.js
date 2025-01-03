@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Game from "../../Assets/Projects/tic-tac-toe.png";
 import retro from "../../Assets/Projects/reproductor.png";
 import Bgame from "../../Assets/Projects/battleship.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Flash from "../../Assets/Projects/FlashJobs.png";
 import Galaxy from "../../Assets/Projects/starwars.png"
 
 function Projects() {
@@ -64,18 +64,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Flash}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Flash Jobs Web Application"
+              description="Flash Jobs, is a comprehensive web application designed to connect job seekers and employers seamlessly. On the front end, it utilizes Bootstrap for responsive design, SweetAlert for user-friendly notifications, JavaScript, and React for interactive and dynamic user experiences. The back end is powered by Python with Flask, using SQLAlchemy for database management and Flask-JWT Extended for secure user authentication. Docker ensures a containerized environment for efficient deployment, and PostgreSQL serves as the robust relational database. Additionally, the integration with Cloudinary enhances the application by enabling streamlined media and image handling"
+              ghLink="https://github.com/AnahiVera/flash-jobs-final-project/tree/master"
+              demoLink="https://drive.google.com/file/d/1JVoOasNxmStuGvl7EF1d2qp3UEW98V7f/view?usp=sharing" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -83,7 +83,7 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://blogs.soumya-jit.tech/"      
             />
           </Col> */}
         </Row>
