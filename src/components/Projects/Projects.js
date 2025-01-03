@@ -20,6 +20,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Flash}
+              isBlog={false}
+              title="Flash Jobs Web Application"
+              description="Flash Jobs, is a comprehensive web application designed to connect job seekers and employers seamlessly. On the front end, it utilizes Bootstrap for responsive design, SweetAlert for user-friendly notifications, JavaScript, and React for interactive and dynamic user experiences. The back end is powered by Python with Flask, using SQLAlchemy for database management and Flask-JWT Extended for secure user authentication. Docker ensures a containerized environment for efficient deployment, and PostgreSQL serves as the robust relational database. Additionally, the integration with Cloudinary enhances the application by enabling streamlined media and image handling"
+              ghLink="https://github.com/AnahiVera/flash-jobs-final-project/tree/master"
+              demoLink="https://drive.google.com/file/d/1JVoOasNxmStuGvl7EF1d2qp3UEW98V7f/view?usp=sharing" 
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Galaxy}
@@ -64,16 +76,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Flash}
-              isBlog={false}
-              title="Flash Jobs Web Application"
-              description="Flash Jobs, is a comprehensive web application designed to connect job seekers and employers seamlessly. On the front end, it utilizes Bootstrap for responsive design, SweetAlert for user-friendly notifications, JavaScript, and React for interactive and dynamic user experiences. The back end is powered by Python with Flask, using SQLAlchemy for database management and Flask-JWT Extended for secure user authentication. Docker ensures a containerized environment for efficient deployment, and PostgreSQL serves as the robust relational database. Additionally, the integration with Cloudinary enhances the application by enabling streamlined media and image handling"
-              ghLink="https://github.com/AnahiVera/flash-jobs-final-project/tree/master"
-              demoLink="https://drive.google.com/file/d/1JVoOasNxmStuGvl7EF1d2qp3UEW98V7f/view?usp=sharing" 
-            />
-          </Col>
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
