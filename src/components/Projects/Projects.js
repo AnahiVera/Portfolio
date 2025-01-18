@@ -7,6 +7,7 @@ import retro from "../../Assets/Projects/reproductor.png";
 import Bgame from "../../Assets/Projects/battleship.png";
 import Flash from "../../Assets/Projects/FlashJobs.png";
 import Galaxy from "../../Assets/Projects/starwars.png"
+import weather from "../../Assets/Projects/weatherApp.png"
 
 function Projects() {
   return (
@@ -76,19 +77,17 @@ function Projects() {
             />
           </Col>
 
-          
-
-          {/* <Col md={4} className="project-card">
+        
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={weather}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://blogs.soumya-jit.tech/"      
+              title="Weather App"
+              description="This project is a React-based application that allows users to check current weather conditions for different locations. It fetches weather data from an external API and displays information like temperature, humidity, wind speed, and weather conditions. It includes features such as dynamic search functionality, map display of location and responsive design for usability across devices."
+              ghLink="https://github.com/AnahiVera/WeatherApp"
+              demoLink="https://weather-app-nu-navy.vercel.app/"      
             />
-          </Col> */}
+          </Col> 
         </Row>
       </Container>
     </Container>
