@@ -8,6 +8,7 @@ import Bgame from "../../Assets/Projects/battleship.png";
 import Flash from "../../Assets/Projects/FlashJobs.png";
 import Galaxy from "../../Assets/Projects/starwars.png"
 import weather from "../../Assets/Projects/weatherApp.png"
+import phonebook from "../../Assets/Projects/Phonebook.png"
 
 function Projects() {
   return (
@@ -30,6 +31,17 @@ function Projects() {
               description="Flash Jobs, is a comprehensive web application designed to connect job seekers and employers seamlessly. On the front end, it utilizes Bootstrap for responsive design, SweetAlert for user-friendly notifications, JavaScript, and React for interactive and dynamic user experiences. The back end is powered by Python with Flask, using SQLAlchemy for database management and Flask-JWT Extended for secure user authentication. Docker ensures a containerized environment for efficient deployment, and PostgreSQL serves as the robust relational database. Additionally, the integration with Cloudinary enhances the application by enabling streamlined media and image handling"
               ghLink="https://github.com/AnahiVera/flash-jobs-final-project/tree/master"
               demoLink="https://drive.google.com/file/d/1JVoOasNxmStuGvl7EF1d2qp3UEW98V7f/view?usp=sharing" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={phonebook}
+              isBlog={false}
+              title="Phonebook with MongoDB"
+              description="This full-stack Phonebook Application combines a React frontend with a Node.js/Express backend to deliver a complete contact management solution. It demonstrates modern web development practices including RESTful API design (Express.js), database integration (MongoDB/Mongoose), and responsive UI development (React with Bootstrap). The system features CRUD operations with real-time search, form validation, and toast notifications, deployed on Render with optimized production builds"
+              ghLink="https://github.com/AnahiVera/PhoneBook-Backend"
+              demoLink="https://phonebook-backend-cfo1.onrender.com/" 
             />
           </Col>
           

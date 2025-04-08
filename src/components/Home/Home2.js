@@ -19,34 +19,28 @@ function Home2() {
               LET ME <span className="purple"> TELL YOU </span> ABOUT MYSELF
             </h1>
             <p className="home-about-body">
-              I discovered my passion for programming while exploring web technologies and software development. 🖥️✨
+              A bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> transitioning from administrative roles to tech, I thrive where <b className="purple">logic meets creativity</b>.
               <br />
-              <br />I have experience in core technologies like
+              <br />With training in
               <i>
-                <b className="purple"> HTML, CSS, JavaScript, Python, and React.js, and I'm expanding my knowledge with tools like Docker and Flask. </b>
+                <b className="purple"> JavaScript, React, Python, Flask, Node.js, Express, SQL, and MongoDB </b>
+              </i>
+              and currently expanding my knowledge in
+              <i>
+                <b className="purple"> REST APIs, JWT authentication, and Docker</b>.
               </i>
               <br />
               <br />
-              My interests lie in creating intuitive and modern web applications, such as &nbsp;
-              <i>
-                <b className="purple">interactive games and dynamic user interfaces </b>. I am deeply interested in learning and exploring {" "}
-                <b className="purple">
-                  Quality Assurance (QA) practices.
-                </b>
-              </i>
+              I enjoy building functional apps while deepening my understanding of <b className="purple">backend systems and QA practices</b>. My past experience in organization and teaching sharpened my <b className="purple">attention to detail</b> and <b className="purple">ability to collaborate</b> — skills I now apply to writing clean code and debugging.
               <br />
               <br />
-              Whenever possible, I channel my creativity into developing responsive, user-friendly projects, incorporating frameworks like <b className="purple"> Bootstrap and React</b>
-              <i>
-                <b className="purple">
-                  {" "}
-                  
-                </b>
-              </i>
-              &nbsp; and ensuring my designs
-              <i>
-                <b className="purple">  have a polished aesthetic</b>
-              </i>
+              What sets me apart is my combination of technical skills and experience in <b className="purple">communication</b> and <b className="purple">project coordination</b>. I understand how to optimize processes and enhance user experience — not just through code but by addressing real user needs.
+              <br />
+              <br />
+              Whenever possible, I channel my creativity into developing <b className="purple">responsive, user-friendly projects</b>, incorporating frameworks like <b className="purple">Bootstrap and React</b> and ensuring my designs have a <b className="purple">polished aesthetic</b>.
+              <br />
+              <br />
+              I'm currently seeking opportunities where I can merge my <b className="purple">passion for technology</b> with my <b className="purple">problem-solving skills</b> to deliver efficient solutions. If you're looking for someone with a <b className="purple">growth mindset</b>, <b className="purple">technical curiosity</b>, and a <b className="purple">unique perspective</b> on web development, let's connect!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
