@@ -20,9 +20,9 @@ function Home2() {
             <p className="home-about-body">
               A bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> transitioning from administrative roles to tech, I thrive where <b className="purple">logic meets creativity</b>.
               <br />
-              <br />With training in
+              <br />With experience in
               <i>
-                <b className="purple"> JavaScript, React, Python, Flask, Node.js, Express, SQL, and MongoDB </b>
+                <b className="purple"> JavaScript, React, NestJS, Tailwind CSS, Python, Flask, Node.js, Express, SQL, and MongoDB </b>
               </i>
               and currently expanding my knowledge in
               <i>
