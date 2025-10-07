@@ -18,30 +18,26 @@ function Home2() {
               LET ME <span className="purple"> TELL YOU </span> ABOUT MYSELF
             </h1>
             <p className="home-about-body">
-              A bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> transitioning from administrative roles to tech, I thrive where <b className="purple">logic meets creativity</b>.
-              <br />
-              <br />With experience in
-              <i>
-                <b className="purple"> JavaScript, React, NestJS, Tailwind CSS, Python, Flask, Node.js, Express, SQL, and MongoDB </b>
-              </i>
-              and currently expanding my knowledge in
-              <i>
-                <b className="purple"> REST APIs, JWT authentication, and Docker</b>.
-              </i>
+              I’m a bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> certified by 4Geeks Academy and currently deepening my knowledge through the <b className="purple">Full Stack Open</b> program by the University of Helsinki.
               <br />
               <br />
-              I enjoy building functional apps while deepening my understanding of <b className="purple">backend systems and QA practices</b>. My past experience in organization and teaching sharpened my <b className="purple">attention to detail</b> and <b className="purple">ability to collaborate</b> — skills I now apply to writing clean code and debugging.
+              My background as an English teacher and administrative professional strengthened my <b className="purple">organization</b>, <b className="purple">communication</b>, and <b className="purple">teamwork</b> skills — which now complement my technical experience in <b className="purple">web development</b>.
               <br />
               <br />
-              What sets me apart is my combination of technical skills and experience in <b className="purple">communication</b> and <b className="purple">project coordination</b>. I understand how to optimize processes and enhance user experience — not just through code but by addressing real user needs.
+              I’ve contributed to product improvement at <b className="purple">Hoktus</b>, developing RESTful APIs with <b className="purple">NestJS</b>, enhancing <b className="purple">responsive interfaces</b> with React and TailwindCSS, and optimizing user experience across platforms.
               <br />
               <br />
-              Whenever possible, I channel my creativity into developing <b className="purple">responsive, user-friendly projects</b>, incorporating frameworks like <b className="purple">Bootstrap and React</b> and ensuring my designs have a <b className="purple">polished aesthetic</b>.
+              My current stack includes <b className="purple">JavaScript, React, NestJS, Node.js, TypeScript, Express, SQL, MongoDB, Python</b> and <b className="purple">Flask</b>, with hands-on experience in <b className="purple">JWT authentication</b> and <b className="purple">Firebase</b> for document and storage.
               <br />
               <br />
-              I'm currently seeking opportunities where I can merge my <b className="purple">passion for technology</b> with my <b className="purple">problem-solving skills</b> to deliver efficient solutions. If you're looking for someone with a <b className="purple">growth mindset</b>, <b className="purple">technical curiosity</b>, and a <b className="purple">unique perspective</b> on web development, let's connect!
+              I enjoy creating <b className="purple">user-friendly, efficient applications</b> that merge functionality with attractive design. My goal is to keep growing as a developer and contribute to <b className="purple">innovative, impactful projects</b>.
+              <br />
+              <br />
+              If you’re looking for someone adaptable, collaborative, and a team player, let’s connect!
             </p>
           </Col>
+
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
