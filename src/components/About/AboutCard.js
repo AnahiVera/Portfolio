@@ -55,7 +55,7 @@ function AboutCard() {
               <FaRegHeart /> Playing games (video and board)
             </li>
             <li className="about-activity">
-              <FaRegHeart /> Reading fantasy and sci-fi novels
+              <FaRegHeart /> Gardening, especially growing my own vegetables
             </li>
             <li className="about-activity">
               <FaRegHeart /> Cooking/eating traditional Chilean recipes
