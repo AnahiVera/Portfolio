@@ -39,7 +39,12 @@ function Home2() {
 
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                style={{ width: '600px', height: '600px' }}
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
