@@ -24,40 +24,40 @@ function AboutCard() {
           </p>
 
           <span className="purple">What drives me in tech:</span>
-          <ul>
-            <li className="about-activity">
+          <ul className="text-center">
+            <li className="about-activity text-center">
               <FaRegHeart /> Solving real-world problems through code
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Designing clean, intuitive user experiences
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Growing through constant learning and collaboration
             </li>
           </ul>
 
           <span className="purple">My current tech focus:</span>
-          <ul>
-            <li className="about-activity">
+           <ul className="text-center">
+            <li className="about-activity text-center">
               <FaRegHeart /> Building full-stack applications with React & Node.js
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Strengthening backend architecture and API design
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Improving code quality through testing and best practices
             </li>
           </ul>
 
           <span className="purple">Outside of tech, I enjoy:</span>
-          <ul>
-            <li className="about-activity">
+           <ul className="text-center">
+            <li className="about-activity text-center">
               <FaRegHeart /> Playing games (video and board)
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Gardening, especially growing my own vegetables
             </li>
-            <li className="about-activity">
+            <li className="about-activity text-center">
               <FaRegHeart /> Cooking/eating traditional Chilean recipes
             </li>
           </ul>

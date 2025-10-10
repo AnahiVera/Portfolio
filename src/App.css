@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Collage img en About */
+.collage-effect {
+  animation: float 2s ease-in-out infinite, fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 4px; /* Espacio para el borde */
+  background: linear-gradient(45deg,#8a20ad, #522cbc, #f4f8f9, #47188d); /* Fondo degradado */
+  border-radius: 12px; /* Un poco más para que coincida con el padding */
+}
+
+.collage-effect::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #8a20ad, #522cbc, #f4f8f9, #20de53);
+  border-radius: 14px;
+  z-index: -1;
+  filter: blur(10px); /* Aquí está el difuminado */
+  opacity: 0.7;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}

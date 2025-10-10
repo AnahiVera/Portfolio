@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import collage from "../../Assets/chiloe collage.jpg";
 import Toolstack from "./Toolstack";
 import { ImPointRight } from "react-icons/im";
 
@@ -29,10 +29,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "200px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={collage} alt="about" className="img-fluid rounded-3 collage-effect rounded-circle" />
           </Col>
         </Row>
         <h1 className="project-heading">
