@@ -19,7 +19,6 @@ import {
   SiPostgresql,
   SiNestjs,
   SiTypescript,
-  SiPostman,
   SiTailwindcss,
   SiJsonwebtokens,
 } from "react-icons/si";
