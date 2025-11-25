@@ -17,7 +17,7 @@ function Home2() {
               LET ME <span className="purple"> TELL YOU </span> ABOUT MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> certified by 4Geeks Academy and currently deepening my knowledge through the <b className="purple">Full Stack Open</b> program by the University of Helsinki.
+              I’m a bilingual (English/Spanish) <b className="purple">Full Stack Developer</b> certified by 4Geeks Academy and the <b className="purple">Full Stack Open</b> program by the University of Helsinki.
               <br />
               <br />
               My background as an English teacher and administrative professional strengthened my <b className="purple">organization</b>, <b className="purple">communication</b>, and <b className="purple">teamwork</b> skills — which now complement my technical experience in <b className="purple">web development</b>.
@@ -29,8 +29,7 @@ function Home2() {
               My current stack includes <b className="purple">JavaScript, React, NestJS, Node.js, TypeScript, Express, SQL, MongoDB, Python</b> and <b className="purple">Flask</b>, with hands-on experience in <b className="purple">JWT authentication</b> and <b className="purple">Firebase</b> for document and storage.
               <br />
               <br />
-              I enjoy creating <b className="purple">user-friendly, efficient applications</b> that merge functionality with attractive design. My goal is to keep growing as a developer and contribute to <b className="purple">innovative, impactful projects</b>.
-              <br />
+              I thrive on challenges and consider myself a <b className="purple">dedicated quick learner</b> who enjoys crafting <b className="purple">user-friendly, efficient applications</b>. My dream is to work in dynamic environments where I can grow professionally while building solutions that have real impact—where my work directly improves user experiences and contributes to meaningful projects.              <br />
               <br />
               If you’re looking for someone adaptable, collaborative, and a team player, let’s connect!
             </p>

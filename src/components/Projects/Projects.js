@@ -22,6 +22,10 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+
+        <p style={{ color: "gray" }}>“A slow beginning still takes you farther than standing still.”</p>
+
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
           
