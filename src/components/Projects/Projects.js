@@ -9,6 +9,7 @@ import Flash from "../../Assets/Projects/FlashJobs.png";
 import Galaxy from "../../Assets/Projects/starwars.png"
 import weather from "../../Assets/Projects/weatherApp.png"
 import phonebook from "../../Assets/Projects/Phonebook.png"
+import forms from "../../Assets/Projects/imgForms.png"
 
 function Projects() {
   return (
@@ -25,17 +26,17 @@ function Projects() {
           
           
 
-{/* 
+
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Flash}
+              imgPath={forms}
               isBlog={false}
-              title="Flash Jobs Web Application"
-              description="Flash Jobs, is a comprehensive web application designed to connect job seekers and employers seamlessly. On the front end, it utilizes Bootstrap for responsive design, SweetAlert for user-friendly notifications, JavaScript, and React for interactive and dynamic user experiences. The back end is powered by Python with Flask, using SQLAlchemy for database management and Flask-JWT Extended for secure user authentication. Docker ensures a containerized environment for efficient deployment, and PostgreSQL serves as the robust relational database. Additionally, the integration with Cloudinary enhances the application by enabling streamlined media and image handling"
-              ghLink="https://github.com/AnahiVera/flash-jobs-final-project/tree/master"
-              demoLink="https://drive.google.com/file/d/15xGQah79CoFRioM9kLUNaB1KOoueguXD/view?usp=sharing" 
+              title="Personalized Forms"
+              description=
+              "This module was one of the several components I developed while working at Hoktus. It enables the creation of fully customizable forms for flows such as login, registration, and other internal processes. It supports multi-page structures, and each page can include various field types: free-text inputs, titles, descriptions, checkboxes, multi-select options, predefined inputs, date pickers, email, password, address fields, and more. Each field includes its own data validation, configuration options, and the ability to mark it as required, providing the company with a flexible and scalable tool for building tailored form experiences.The module was implemented using React, Tailwind CSS, ui.shadcn, and custom CSS to deliver a clean, modern and consistent UI.."
+              demoLink="https://drive.google.com/drive/u/0/folders/1W0Hou5XIq4vtofZTLCG7ilfVPWQTNuvI" 
             />
-          </Col> */}
+          </Col>
           
 
 
